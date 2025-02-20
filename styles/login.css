@@ -1,0 +1,115 @@
+/** {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+.flexContainer{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flexContainer > div{
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.image{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.flexVertical{
+  display: flex;
+  flex-direction: column;
+}
+
+.flexVertical > Button{
+  margin: 2px;
+}
+
+/*End of added code from Checkout Css*/
+
+main {
+  text-align: center;
+  vertical-align: center;
+  /*line-height: 100vh;*/
+}
+
+.Title {
+  background-color: #ffffff;
+  padding: 0px;
+  margin: 0px;
+  height: auto;
+}
+
+.IndexBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  wrap: nowrap;
+  padding: 20px;
+  width: vw;
+  background-color: #dddddd;
+}
+
+.mainBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  wrap: nowrap;
+  padding: 20px;
+  width: vw;
+  background-color: #dddddd; /*d.tech orange: ff4c15*/
+}
+
+.TOSBox {
+  flex: 30;
+  padding: 5px;
+  background-color: #e9ebec;
+  font-size: 1.5vw;
+}
+
+.mantine-Checkbox-label {
+  font-size: 1.5vw;
+  line-height: 1.5em;
+}
+
+.loginBox {
+  flex: 70;
+  padding: 5px;
+  background-color: #ffffff;
+}
+
+.loginButton {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.flexContainer{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-container > div {
+  margin: 10px;
+}
+
+.bottomLink {
+  width: 240px;
+  height: 24px;
+  background-color: #e9ebec;
+}
+
+.amogus {
+  background-color: green;
+  
+}

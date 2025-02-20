@@ -1,0 +1,73 @@
+main {
+  text-align: center;
+  vertical-align: center;
+}
+
+.sidebutton {
+  background-color: white;
+  font-size: 1.2vw;
+  width: 100%;
+  border: none;
+  padding: 1vw;
+  border-radius: 0.5vw;
+  display:flex;
+}
+
+.sidebutton:hover{
+  background-color: #eeeeee;
+}
+
+.currentbutton {
+  background-color: #eeeeee;
+  font-size: 1.2vw;
+  width: 100%;
+  border: none;
+  padding: 1vw;
+  border-radius: 0.5vw;
+  display:flex;
+}
+.logoutbutton{
+  background-color: #00ee00;
+  font-size: 1.2vw;
+  width: 100%;
+  border: none;
+  padding: 1vw;
+  border-radius: 0.5vw;
+  display:flex;
+  align-self: baseline;
+  color: white;
+  font-weight: bold;
+}
+
+.logoutLink {
+  text-decoration: none;
+}
+
+.Navbar{
+  display:flex;
+  align-items: end;
+}
+
+.greeting{
+  display:flex;
+  font-size: 2vw;
+}
+
+p{
+  text-align: left; 
+  color: darkgray;
+  margin: .1vw;
+  margin-bottom: 1vw;
+}
+
+.exportbutton{
+  display: flex;
+  align-self: start;
+  font-size: 1.5vw;
+  height: 3vw;
+  border-radius: .5vw;
+}
+
+.test {
+   background-color: #ff4c15;
+}

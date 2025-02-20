@@ -1,0 +1,33 @@
+#main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5rem;
+
+  #content {
+    width: 50rem;
+    text-align: left;
+
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      font-weight: 300;
+    }
+    img {
+      width: 50rem;
+    }
+  }
+}
+#back {
+  position: absolute;
+  top: 1.5vw;
+  left: 1.5vw;
+
+  transition: 0.2s ease-in-out;
+  &:hover {
+    left: 1vw;
+  }
+}

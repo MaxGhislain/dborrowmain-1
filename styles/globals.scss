@@ -1,0 +1,38 @@
+@import url("https://use.typekit.net/eln0quv.css");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: neue-haas-grotesk-text, sans-serif;
+  overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: neue-haas-grotesk-display, sans-serif;
+}
+p {
+  font-weight: 300;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  background: rgb(240,240,240);
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(200,200,200);
+  border-radius: 500px;
+
+  transition: 0.2s ease-in-out;
+  &:hover {
+    background: rgb(170,170,170);
+  }
+}
