@@ -1,3 +1,5 @@
+Slideshow Link: https://docs.google.com/presentation/d/11LP5M8RH3oeWxpSNQ2767jcUQadOj-CCq2KVPUu3qTo/edit#slide=id.g114bdc87a54_0_0
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
